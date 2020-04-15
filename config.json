@@ -1,0 +1,12 @@
+{
+  "spotify_username": "Enter-spotify-username-here",
+  "spotify_client_id": "Enter-spotify-client-id-here",
+  "spotify_client_secret": "Enter-spotify-client-secret-here",
+  "spotify_redirect_uri" : "Enter-spotify-redirect-uri-here",
+  "new_release_number": 10,
+  "sender_email": "Enter-preferred-sender-email-address-here",
+  "sender_password": "Enter-sender-email-password-here",
+  "smtp_server": "Enter-SMTP-server-here (e.g. smtp.gmail.com)",
+  "new_release_db_path": "Enter-full-path-to-new-release-db-here",
+  "config_db_path": "Enter-full-path-to-config-db-here"
+}
