@@ -1,5 +1,5 @@
 # Spotify-New-Release-Notifier
-Spotify New Release Notifier is an application that sends email notifications listing new album and single track releases, sorted by artist popularity, to registered recipients. 
+Spotify New Release Notifier is a Python application that sends email notifications listing new album and single track releases, sorted by artist popularity, to registered recipients. 
 Artist and genre details are included for each new release and recipients can play snippets of new tracks.
 
 There are two steps to this application when it is run.
