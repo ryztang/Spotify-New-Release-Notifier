@@ -8,7 +8,7 @@ First, new release data is collected from the Spotify API and stored into a loca
   
 Next, the most recent albums and singles collected are included in the email notification to be sent. This is handled by email_notifier.py. It sends emails to the recipients specified in the local configuration database (see Config_DB_Design.PNG for details regarding how recipient data is stored). If there are no new releases, no email is sent.
 
-### Email Example:
+### Email Sample Screenshot:
 ![Email Screenshot](Email_Sample_Screenshot.PNG?raw=true)
 
 ## Setup
