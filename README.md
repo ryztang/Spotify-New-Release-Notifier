@@ -2,8 +2,10 @@
 Spotify New Release Notifier is an application that sends email notifications listing new album and single track releases, sorted by artist popularity, to registered recipients. 
 Artist and genre details are included for each new release and recipients can play snippets of new tracks.
 
-There are two steps to this application when it is run.  
-First, new release data is collected from the Spotify API and stored into a local SQLite database (see New_Release_DB_Design.PNG for details on the database design). This is handled by api_client.py using pandas. Album and single data are only added to the database if they don't already exist. This prevents the same data from being sent in multiple email notifications.  
+There are two steps to this application when it is run.
+  
+First, new release data is collected from the Spotify API and stored into a local SQLite database (see New_Release_DB_Design.PNG for details on the database design). This is handled by api_client.py using pandas. Album and single data are only added to the database if they don't already exist. This prevents the same data from being sent in multiple email notifications.
+  
 Next, the most recent albums and singles collected are included in the email notification to be sent. This is handled by email_notifier.py. It sends emails to the recipients specified in the local configuration database (see Config_DB_Design.PNG for details regarding how recipient data is stored). If there are no new releases, no email is sent.
 
 ### Email Example:
