@@ -41,7 +41,7 @@ Then, enter the full path to that database into config.json (e.g. "C:/Spotify_DB
 ## Running the Application
 To run this application, simply run main.bat. 
 This expects the app to be fully configured, so make sure to follow and fully complete the setup before running.  
-main.bat opens Anaconda prompt, activates the environment created by setup.bat, and runs main.py, which would then send email notifications to everyone saved in the configuration database.
+main.bat opens Anaconda Prompt, activates the environment created by setup.bat, and runs main.py, which would then send email notifications to everyone saved in the configuration database.
   
 The first time you run this application, Spotify will ask you to authorize the app, after which it will redirect you to the configured redirect uri with an authorization code appended.
 Enter this entire url when prompted by the application (which would be displayed on the console). 
